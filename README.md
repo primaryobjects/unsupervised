@@ -41,6 +41,15 @@ The following graphs show the results of clustering and categorizing colors by t
 
 ### Predicting the Category for New Colors
 
+The following three colors were used as [new data](/colors/test.txt) for predicting the category for.
+
+```text
+  red green blue     hex x        y group label
+1 241    52   11 #F1340B 1 15807499     2   red
+2  80   187  139 #50BB8B 2  5290891     3 green
+3  34    15  194 #220FC2 3  2232258     1  blue
+```
+
 ![Predicting the Category for New Colors](/images/plot5.png)
 
 ## Exchange Traded Stock and Bond Funds (ETF)
@@ -61,11 +70,11 @@ The following output shows the results of clustering and categorizing ETF funds 
 
 ### Training Set Category Results
 
-[Results](/results/train.csv)
+[Results](/etf/results/train.csv)
 
 ### Test Set Category Results
 
-[Results](/results/test.csv)
+[Results](/etf/results/test.csv)
 
 ## License
 
