@@ -1,0 +1,4 @@
+  red green blue     hex x        y group label
+1 241    52   11 #F1340B 1 15807499     2   red
+2  80   187  139 #50BB8B 2  5290891     3 green
+3  34    15  194 #220FC2 3  2232258     1  blue
