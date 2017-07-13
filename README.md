@@ -21,27 +21,27 @@ The following graphs show the results of clustering and categorizing colors by t
 
 #### 1,000 Randomly Generated Colors
 
-!(1,000 Randomly Generated Colors)[/images/plot0.png]
+![1,000 Randomly Generated Colors](/images/plot0.png)
 
 #### 100 Randomly Generated Colors
 
-!(100 Randomly Generated Colors)[/images/plot1.png]
+![100 Randomly Generated Colors](/images/plot1.png)
 
 #### 3 Detected Clusters Within Colors
 
-!(3 Detected Clusters Within Colors)[/images/plot2.png]
+![3 Detected Clusters Within Colors](/images/plot2.png)
 
 #### Assigning Colors to a Cluster
 
-!(Assigning Colors to a Cluster)[/images/plot3.png]
+![Assigning Colors to a Cluster](/images/plot3.png)
 
 #### Viewing Colors Within Their Cluster
 
-!(Viewing Colors Within Their Cluster)[/images/plot4.png]
+![Viewing Colors Within Their Cluster](/images/plot4.png)
 
 #### Predicting the Category for New Colors
 
-!(Predicting the Category for New Colors)[/images/plot5.png]
+![Predicting the Category for New Colors](/images/plot5.png)
 
 ## Exchange Traded Stock and Bond Funds (ETF)
 
