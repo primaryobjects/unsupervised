@@ -22,6 +22,9 @@ data[,11] <- as.numeric(sub("%", "", data[,11]))
 # Replace NA with 0.
 data[is.na(data)] <- 0
 
+# Save a copy of the cleansed data.
+write.csv(data, file='data/vanguard-etf-clean.csv')
+
 # Initialize a random seed for reproducibility.
 set.seed(123)
 
