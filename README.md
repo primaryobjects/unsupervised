@@ -5,7 +5,7 @@ Examples of applying unsupervised machine learning using K-means clustering.
 
 ## Colors
 
-Unsupervised learning is applied to a data set of randomly generated colors. The red, green, and blue values are used as features to categorize each color under a specific parent category.
+Unsupervised learning is applied to a data set of randomly generated [colors](/colors/colors.R). The red, green, and blue values are used as features to categorize each color under a specific parent category.
 
 For example, purple might be categories as Red or Blue. Likewise, Sky Blue would be categorized under Blue.
 
@@ -54,7 +54,7 @@ The following three colors were used as [new data](/colors/test.txt) for predict
 
 ## Exchange Traded Stock and Bond Funds (ETF)
 
-Unsupervised learning is applied to a data set of exchange traded funds. The percentage values for "Year to Date", "1 Year", "5 Year", and "10 Year" returns are used as features to categorize each ETF under a specific parent category.
+Unsupervised learning is [applied](/etf/etf.R) to a data set of [exchange traded funds](/etf/data/vanguard-etf.tsv). The percentage values for "Year to Date", "1 Year", "5 Year", and "10 Year" returns are used as features to categorize each ETF under a specific parent category.
 
 ### Cluster Categories
 
