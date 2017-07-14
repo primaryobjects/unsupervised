@@ -57,8 +57,8 @@ csv
         // Sum the values to use as an identifier for each etf row.
         var id = row.reduce((a, b) => a + b, 0);
 
-        // Locate the row in the original data and mark the cluster index.
-        etfs[id].data.group = group;
+        // Locate the row in the original data and mark the cluster index (1-based).
+        etfs[id].data.group = group + 1;
       });
     });
 
