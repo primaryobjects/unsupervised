@@ -1,0 +1,9 @@
+{
+  "name": "etf-cluster",
+  "version": "0.0.1",
+  "main": "etf.js",
+  "dependencies": {
+    "clusterfck": "*",
+    "fast-csv": "*"
+  }
+}

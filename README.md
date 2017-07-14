@@ -54,7 +54,7 @@ The following three colors were used as [new data](/colors/test.txt) for predict
 
 ## Exchange Traded Stock and Bond Funds (ETF)
 
-Unsupervised learning is [applied](/etf/etf.R) to a data set of [exchange traded funds](/etf/data/vanguard-etf.tsv). The percentage values for "Year to Date", "1 Year", "5 Year", and "10 Year" returns are used as features to categorize each ETF under a specific parent category.
+Unsupervised learning is applied to a data set of [exchange traded funds](/etf/data/vanguard-etf.tsv). The percentage values for "Year to Date", "1 Year", "5 Year", and "10 Year" returns are used as features to categorize each ETF under a specific parent category. Example code is provided in [R](/etf/etf.R) and [JavaScript](/etf/etf.js).
 
 ### Cluster Categories
 
@@ -75,6 +75,10 @@ The following output shows the results of clustering and categorizing ETF funds 
 ### Test Set Category Results
 
 [Results](/etf/results/test.csv)
+
+### Results from JavaScript
+
+[Results](/etf/results/train-js.csv)
 
 ## License
 

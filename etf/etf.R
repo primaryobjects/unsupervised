@@ -1,3 +1,10 @@
+#
+# An example of using unsupervised learning in R to classify and categorize ETF stock and bond funds, using the K-means clustering algorithm.
+#
+# by Kory Becker
+# http://primaryobjects.com
+#
+
 packages <- c('flexclust', 'caTools')
 if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
   install.packages(setdiff(packages, rownames(installed.packages())))  
