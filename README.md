@@ -3,6 +3,8 @@ Unsupervised
 
 Examples of applying unsupervised machine learning using K-means clustering.
 
+Read the tutorial: [Intelligent Topic Detection with Unsupervised Learning](http://www.primaryobjects.com/2017/07/24/intelligent-topic-detection-with-unsupervised-learning/)
+
 ## Colors
 
 Unsupervised learning is applied to a data set of randomly generated [colors](/colors/colors.R). The red, green, and blue values are used as features to categorize each color under a specific parent category.
