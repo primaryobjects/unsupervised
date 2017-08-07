@@ -50,7 +50,7 @@ train[order(train$group),]
 # Manually label the clusters with names (guessed by looking at the resulting clusters).
 centroids <- as.data.frame(fit$centers)
 centroids$group <- 1:nrow(centroids)
-centroids$label <- c('International', 'StockBigGain', 'Stock', 'Bond', 'SmallMidLargeCap')
+centroids$label <- c('Stock', 'StockBigGain', 'Bond', 'SmallMidLargeCap', 'International')
 
 # Set assigned label on training data.
 train$label <- centroids$label[train$group]
